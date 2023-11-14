@@ -15,7 +15,6 @@ function App() {
       <Services/>
       <Budget/>
       <Methodology/>
-      <Skills/>
     </main> 
   );
 }
