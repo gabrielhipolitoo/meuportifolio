@@ -9,19 +9,16 @@ const About = () => {
       <article className="about-me">
         <div className="my-photo">
           <div></div>
-          <div></div>
-          <div></div>
         </div>
-          <p>
-            Meu nome é Gabriel Hipólito, tenho 24 anos e sou estudante de
-            Ciência da Computação. Sou apaixonado por <span>programação</span> e{" "}
-            <span>design</span>.
-            <br />
-            <span>
-              Meu objetivo é criar landing pages que convertam e proporcionem
-              uma sensação de modernidade e alto desempenho aos clientes.
-            </span>
-          </p>
+        <p>
+          Sou um desenvolvedor front-end apaixonado por tecnologia e inovação,
+          com experiência em criar soluções digitais eficientes, escaláveis e
+          focadas na melhor experiência do usuário. Especialista em React,
+          <span>#TypeScript</span> , <span>#Redux Toolkit</span> e{" "}
+          <span>#React Query</span> , tenho habilidade em desenvolver interfaces
+          modernas e organizadas, seguindo padrões como a arquitetura{" "}
+          <span>Atomic Design</span>
+        </p>
       </article>
     </section>
   );
