@@ -10,7 +10,6 @@
 //styles pages
 
 .portfolio {
-  background-image: url("../Images/Background.svg");
   background-repeat: no-repeat;
   background-size: 60%;
   background-position: right 320px;
@@ -18,6 +17,7 @@
   display: flex;
   row-gap: 50px;
   flex-direction: column;
+  padding-bottom: 2%;
 }
 
 .header {
@@ -50,7 +50,7 @@
       font-size: PxToRem(17);
       &:hover {
         transition: color 150ms;
-        color: #4084ea;
+        color: #ffffffa8;
       }
     }
   }
@@ -376,6 +376,7 @@
   background-color: #4084ea;
   margin: 0 auto;
   width: 90%;
+  border: none;
   justify-content: space-between;
   display: flex;
   p {
@@ -521,7 +522,7 @@
 .section-skills {
   margin: 0 auto;
   max-width: 98%;
-  width: PxToRem(1000);
+  width: PxToRem(1700);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -531,7 +532,7 @@
     font-size: PxToRem(50);
 
     span {
-      color: #d05338;
+      color: #4084ea;
     }
   }
 
@@ -539,27 +540,54 @@
     margin-top: PxToRem(120);
     width: inherit;
     display: flex;
+    max-width: 98%;
     justify-content: center;
     column-gap: PxToRem(120);
     row-gap: PxToRem(120);
     flex-wrap: wrap;
 
-    span {
+    div {
+      width: PxToRem(230);
+      height: PxToRem(200);
+      display: flex;
+      justify-content: center;
+      align-items: center;
       border-radius: 7px;
       color: #fff;
       padding: PxToRem(20);
-      text-align: center;
-      font-weight: 200;
-      font-size: PxToRem(20);
-      width: calc(PxToRem(1000) / 3);
+
       border: 1px solid #fff;
+      transition: background 150ms;
+
+      span {
+        text-align: center;
+        font-weight: 200;
+        font-size: PxToRem(18);
+      }
+
+      &:hover {
+        transition: background 150ms;
+        background-color: #4084ea;
+      }
     }
   }
 }
 
+.section-footer {
+  margin-top: 20px;
+  text-align: center;
+  p {
+    margin-bottom: 10px;
+    color: #898989;
+  }
+  strong{
+    font-size: PxToRem(20);
+    color: #fff;
+  }
+}
 .active-scroll {
   transition: background 150ms linear;
-  background-color: #0f0f12;
+  background-color: #4084ea;
 }
 
 //scrollbar
